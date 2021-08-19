@@ -1,0 +1,45 @@
+* {
+    font-family: "Karma", sans-serif;
+}
+
+html, body {
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+div.top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px 0;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+div.main {
+    width: 1100px;
+    padding: 70px 20px;
+    margin: 0 auto;  
+}
+div.row ,div.footer {
+    display: flex;
+    justify-content: space-between;
+}
+div.item {
+    width:  calc( (100% - 50px ) / 4);
+    margin-bottom: 20px;
+}
+div.about {
+    display: block;
+    text-align: center;
+}
+div.about img {
+    margin: 0 auto;
+}
+div.footer div.third {
+    width: calc( (100% - 30px) / 3);
+}

@@ -1,2 +1,2 @@
 <?php
- echo 'aaa';
+include ("index.html");
