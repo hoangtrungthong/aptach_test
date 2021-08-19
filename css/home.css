@@ -1,0 +1,121 @@
+header, section, footer, aside, nav,
+article, figure, figcaption {
+    display: block;}
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("../images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;}
+
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+header {
+    height: 160px;
+    background-image: url(../images/header.jpg);
+}
+img {
+    display: block;
+}
+li {
+    list-style: none;
+    text-transform: capitalize;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+h2,p,span {
+    text-transform: capitalize;
+}
+h2 {
+    margin-bottom: 5px;
+}
+span {
+    color: palevioletred;
+}
+.header ul {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+.header ul li {
+    display: inline-block;
+}
+.header ul li a {
+    color: white;
+    text-transform: capitalize;
+    padding: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.header ul li a.active {
+    color: #000000;
+}
+.header ul li a:hover {
+    background-color: palevioletred;
+    transition: all 0.5s;
+}
+/* container */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    border-right: 1px solid #ccc;
+    width: 70%;
+}
+.left > div {
+    padding: 20px 0 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.left > div > div:first-child {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin-right: 20px;
+}
+.sidebar {
+    padding-right: 20px;
+}
+.sidebar li,a {
+    color: palevioletred;
+}
+.sidebar a:hover {
+    color: #666666;
+}
+.sidebar > div:first-child {
+    margin-bottom: 70px;
+}
+.sidebar > div > ul:first-child > li:first-child {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.sidebar > div > ul:first-child > li a {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+.sidebar > div:last-child ul li:not(li:first-child) {
+    color: #666666;
+}
+.foter {
+    background-color: #ccc;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 25px;
+}
+.foter p {
+    margin: 0;
+    color: white;
+}
