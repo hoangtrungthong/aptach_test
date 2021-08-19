@@ -32,6 +32,7 @@ div.row ,div.footer {
 div.item {
     width:  calc( (100% - 50px ) / 4);
     margin-bottom: 20px;
+    text-align: center;
 }
 div.about {
     display: block;
